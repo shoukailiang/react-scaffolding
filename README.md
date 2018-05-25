@@ -3,7 +3,7 @@
 
 # 基于官方脚手架定制
 - antd 按需加载
-- scss
+- less
 - 装饰器写法
 - @ 路径
 - redux,react-redux

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Button } from 'antd';
 import { connect } from 'react-redux';
 import { add, remove, addAsync } from '@/redux/actions';
-import './App.scss';
+import './App.less';
 @connect(
   state => state.counter,
   { add, remove, addAsync }
