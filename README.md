@@ -5,8 +5,10 @@
 - antd 按需加载
 - scss
 - 装饰器写法
+- @ 路径
 - redux,react-redux
 - react-route-dom 
 - redux工具（要下载浏览器插件）
 - eslint (在package.json里)
 - 端口代理-解决跨域
+- redux demo
