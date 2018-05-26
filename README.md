@@ -1,6 +1,14 @@
 # react-scaffolding
 🚀The scaffolding I'm using, based on create-react-app
 
+# 使用
+```
+# 下载前端依赖 npm i 
+# 下载后端依赖 cd server && npm i 
+# 前端启动 npm start 
+# 后端启动 npm run server 
+```
+
 # 基于官方脚手架定制
 - 基本的目录结构，为了保留文件夹，有些空文件里面就有了.gitignore
 - antd 按需加载
