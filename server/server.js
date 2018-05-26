@@ -1,5 +1,5 @@
-const express = require('express');
-const mongoose = require('mongoose')
+import express from 'express';
+import mongoose from 'mongoose';
 
 const app = express();
 
@@ -8,7 +8,8 @@ app.use('/', function (req, res) {
   return res.json('hello world')
 })
 // mongoose的Promise已经废弃了
-mongoose.Promise = require('bluebird');
+import bluebird from 'bluebird';
+mongoose.Promise = bluebird;
 
 try {
   mongoose.connect('mongodb://localhost/shoukailiang', {

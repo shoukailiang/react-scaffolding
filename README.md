@@ -14,6 +14,12 @@
 - 端口代理-解决跨域
 - 一个 react-redux的demo
 
+# 增加server内容
+- node支持es6的语法
+- 启动server ,在根目录npm run server (linux或mac ) ,npm run server-win (win，垃圾windows)
+- server里面有单独的package.json,个人喜欢分开
+- 链接了mongoose ,怎么创建数据库请查看 [点击查看](https://github.com/shoukailiang/school-app)里面的readme里有写
+
 # 说下为什么没用css-module
 - 太难受了吧，style.a style.b
 - 好吧我知道可以解决上面的问题，但那种方案styleName也难受
