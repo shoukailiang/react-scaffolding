@@ -17,6 +17,7 @@
 # 增加server内容
 - node支持es6的语法
 - 启动server ,在根目录npm run server (linux或mac ) ,npm run server-win (win，垃圾windows)
+- 若启动失败，请全局安装nodemon和babel-cli 谢谢
 - server里面有单独的package.json,个人喜欢分开
 - 链接了mongoose ,怎么创建数据库请查看 [点击查看](https://github.com/shoukailiang/school-app)里面的readme里有写
 
